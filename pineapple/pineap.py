@@ -18,7 +18,7 @@ class Pineap(Module):
         return self.request('getPineAPSettings')
     def deauth(self, sta, clients, multiplier, channel):
         multiplier = 10 if multiplier > 10 else multiplier
-        return self.request('deauth', {'sta': sta, 'clients': clients, 'multiplier': multiplier})
+        return self.request('deauth', {'sta': sta, 'clients': clients, 'multiplier': multiplier, channel: channel})
     def enable(self):
         return self.request('enable')
     def disable(self):
