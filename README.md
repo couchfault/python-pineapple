@@ -23,7 +23,7 @@ fruit.getModule("notifications").addNotification("test")
 <pre>
 fruit.getModule("pineap").enable()
 </pre>
-##### Deauth/dissasoc the clients 73:65:62:6b:69:6e and 6e:65:73:67:69:61 from the bssid 6e:74:64:69:63:6b 5 times on channel 1
+##### Deauth/dissasoc the clients `73:65:62:6b:69:6e` and `6e:65:73:67:69:61` from the bssid `6e:74:64:69:63:6b` 5 times on channel 1
 <pre>
 fruit.getModule("pineap").deauth('6e:74:64:69:63:6b', ['73:65:62:6b:69:6e', '6e:65:73:67:69:61'], 5, 1)
 </pre>
