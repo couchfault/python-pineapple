@@ -3,7 +3,10 @@ WiFi pineapple API Wrapper written in python
 
 ## Documentation
 Documentation is a work in progress. It may not be complete for a while, but I believe the code to be very readable and if you do know python it shouldn't be too hard to figure out.
-
+Some hints:
+- All modules have the same name they do on the pineapple (all lower case). To see what a module can do just run `help(fruit.getModule(modulename)`
+- To find out more about the WiFi Pineapple API itself, set `debug = True` when instantiating your `Pineapple()`s and it will log the HTTP requests it makes
+- Read the WiFi Pineapple php source located on your pineapple at `/pineapple/modules/modulename/api/module.php` as well as the corresponding python files in the project
 ## Examples:
 ##### Instantiate a Pineapple object:
 <pre>
