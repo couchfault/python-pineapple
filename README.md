@@ -7,6 +7,7 @@ Some hints:
 - All modules have the same name they do on the pineapple (all lower case). To see what a module can do just run `help(fruit.getModule(modulename)`
 - To find out more about the WiFi Pineapple API itself, set `debug = True` when instantiating your `Pineapple()`s and it will log the HTTP requests it makes
 - Read the WiFi Pineapple php source located on your pineapple at `/pineapple/modules/modulename/api/module.php` as well as the corresponding python files in the project
+
 ## Examples:
 ##### Instantiate a Pineapple object:
 <pre>
