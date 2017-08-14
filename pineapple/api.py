@@ -20,6 +20,6 @@ class API(object):
         resp = requests.post(self.url, data=payload, headers=self.headers)
         try:
             return json.loads(resp.text)
-        except ValueError, e:
-            print 'Error decoding: '+repr(resp.text)
+        except ValueError as e:
+            print("Error decoding: %".format(repr(resp.text)))
             print e
